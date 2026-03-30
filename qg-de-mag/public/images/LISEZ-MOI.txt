@@ -1,0 +1,11 @@
+Ce dossier est destiné aux images du site.
+
+Fichiers attendus :
+- hero-bg.jpg     → Photo de fond du hero (idéalement une vue du bar)
+- interieur.jpg   → Photo de l'intérieur pour la section "L'endroit"
+- logo.png        → Logo du QG de Mag (fond transparent de préférence)
+
+Format recommandé :
+- hero-bg.jpg    : 1600×900px minimum
+- interieur.jpg  : 800×600px minimum
+- logo.png       : 400×200px, fond transparent (PNG)
