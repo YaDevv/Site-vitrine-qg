@@ -68,7 +68,7 @@ nav {
   min-height: 100vh;
   background:
     linear-gradient(160deg, rgba(93,18,53,0.88) 0%, rgba(93,18,53,0.65) 50%, rgba(30,10,20,0.9) 100%),
-    url('../public/images/hero-bg.jpg') center/cover no-repeat;
+url('../images/hero-bg.jpg') center/cover no-repeat;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -607,7 +607,7 @@ footer {
   color: #ff4444;
   letter-spacing: 3px;
 }
-.match-drapeaux { font-size: 1.4rem;  }
+.match-drapeaux { font-size: 1.4rem;  color: var(--white); }
 .match-texte {
   font-weight: 700;
   font-size: 0.95rem;
