@@ -271,7 +271,13 @@ section { padding: 5rem 2rem; }
   font-size: 0.9rem;
   color: var(--bordeaux-dark);
 }
-.feature .icon { font-size: 1.4rem; }
+.feat-icon {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  color: var(--bordeaux);
+  stroke: var(--bordeaux);
+}
 
 /* ── JEUX ── */
 #jeux {
@@ -311,6 +317,14 @@ section { padding: 5rem 2rem; }
   border-color: var(--gold);
 }
 .jeu-card .emoji { font-size: 2.5rem; margin-bottom: 1rem; }
+.jeu-icon {
+  width: 48px;
+  height: 48px;
+  margin: 0 auto 1.2rem;
+  color: var(--gold);
+  stroke: var(--gold);
+}
+.jeu-icon svg { width: 100%; height: 100%; }
 .jeu-card h3 {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 1.4rem;
@@ -484,6 +498,13 @@ section { padding: 5rem 2rem; }
   border-radius: 6px;
 }
 .address-line .icon { font-size: 1.5rem; }
+.addr-icon {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  stroke: var(--bordeaux);
+  color: var(--bordeaux);
+}
 .address-line div  { line-height: 1.5; }
 .address-line strong { display: block; font-weight: 800; color: var(--bordeaux-dark); }
 .address-line span   { font-size: 0.9rem; color: #8a6070; }
@@ -698,3 +719,4 @@ body.match-visible { padding-bottom: 60px; }
 
   .burger { display: flex; }
 }
+
